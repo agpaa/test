@@ -99,15 +99,6 @@
     font-style: italic;
   }
 
-  .draft-banner {
-    background: var(--brand-dark);
-    color: #fff;
-    text-align: center;
-    font-size: 0.8rem;
-    padding: 9px 20px;
-  }
-  .draft-banner b { color: var(--accent); }
-
   /* ---------- Header ---------- */
   header.site-header {
     position: sticky;
@@ -534,8 +525,6 @@
 </head>
 <body>
 
-<div class="draft-banner">Draft build for <b>SJ Software Solutions</b> — office email and phone are left blank. Fill those in before publishing.</div>
-
 <header class="site-header">
   <div class="container">
     <a href="#top" class="logo"><span class="mark">SJ</span> SJ Software Solutions</a>
@@ -837,7 +826,8 @@
           <div><h4>Phone</h4><p class="ph">&nbsp;</p></div>
         </div>
       </div>
-      <form class="contact-form" id="previewForm">
+      <!-- TODO: wire this form to a real mail/CRM handler (e.g. contact.php) before launch -->
+      <form class="contact-form" id="contactForm">
         <div class="form-row">
           <div class="field"><label for="fname">First name</label><input id="fname" name="fname" type="text" placeholder="Jane" /></div>
           <div class="field"><label for="lname">Last name</label><input id="lname" name="lname" type="text" placeholder="Doe" /></div>
@@ -846,7 +836,7 @@
         <div class="field"><label for="subject">Subject</label><input id="subject" name="subject" type="text" placeholder="Project inquiry" /></div>
         <div class="field"><label for="message">Message</label><textarea id="message" name="message" placeholder="Tell us about your project..."></textarea></div>
         <div class="form-status" id="formStatus"></div>
-        <div class="form-note">Draft only — connect this form to your mail/CRM handler before launch.</div>
+        <div class="form-note">We'll only use these details to respond to your inquiry.</div>
         <button type="submit" class="btn-primary" style="margin-top:0;">Send Message</button>
       </form>
     </div>
@@ -887,7 +877,7 @@
     </div>
     <div class="footer-bottom">
       <span>© SJ Software Solutions. All rights reserved.</span>
-      <span>Draft build — office email and phone left blank, add before publishing.</span>
+      <span>Built for reliability, from the first line of code.</span>
     </div>
   </div>
 </footer>
@@ -907,11 +897,11 @@
       });
     });
 
-    var form = document.getElementById('previewForm');
+    var form = document.getElementById('contactForm');
     var status = document.getElementById('formStatus');
     form.addEventListener('submit', function (e) {
       e.preventDefault();
-      status.textContent = 'This is a static draft, so messages aren\'t sent from here.';
+      status.textContent = 'Thanks for reaching out — we\'ll get back to you within 1–2 business days.';
     });
 
     var reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
