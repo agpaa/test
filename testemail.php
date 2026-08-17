@@ -1,5 +1,5 @@
 <?php
-$to = "agpaasoftwares@gmail.com";
+$to = "sales@sjsolutionstech.com";
 $subject = "Test Mail from Plesk";
 $message = "This is a test email.";
 $headers = "From: no-reply@example.com";
