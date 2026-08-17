@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" role="img" aria-label="SJ Solutions">
+  <defs>
+    <linearGradient id="favGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a72c4"/>
+      <stop offset="100%" stop-color="#04406e"/>
+    </linearGradient>
+  </defs>
+  <circle cx="80" cy="80" r="76" fill="none" stroke="#f6b024" stroke-width="6"
+          stroke-dasharray="330 154" stroke-linecap="round" transform="rotate(-70 80 80)"/>
+  <circle cx="80" cy="80" r="62" fill="url(#favGrad)"/>
+  <text x="80" y="101" text-anchor="middle" font-family="'Poppins','Segoe UI',Arial,sans-serif" font-size="56" font-weight="700" fill="#ffffff">SJ</text>
+  <circle cx="136" cy="102" r="9" fill="#f6b024"/>
+</svg>

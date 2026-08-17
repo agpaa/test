@@ -2,15 +2,17 @@
   <defs>
     <linearGradient id="badgeGrad" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#0a72c4"/>
-      <stop offset="100%" stop-color="#05579e"/>
+      <stop offset="100%" stop-color="#04406e"/>
     </linearGradient>
   </defs>
 
-  <rect x="8" y="15" width="130" height="130" rx="26" fill="url(#badgeGrad)"/>
-  <text x="73" y="97" text-anchor="middle" font-family="'Poppins','Segoe UI',Arial,sans-serif" font-size="58" font-weight="700" fill="#ffffff">SJ</text>
-  <rect x="30" y="109" width="86" height="5" rx="2.5" fill="#f6b024"/>
+  <circle cx="75" cy="80" r="67" fill="none" stroke="#f6b024" stroke-width="3.5"
+          stroke-dasharray="290 135" stroke-linecap="round" transform="rotate(-70 75 80)"/>
+  <circle cx="75" cy="80" r="55" fill="url(#badgeGrad)"/>
+  <text x="75" y="99" text-anchor="middle" font-family="'Poppins','Segoe UI',Arial,sans-serif" font-size="48" font-weight="700" fill="#ffffff">SJ</text>
+  <circle cx="126" cy="100" r="8" fill="#f6b024"/>
 
-  <text x="154" y="72" font-family="'Poppins','Segoe UI',Arial,sans-serif" font-size="40" font-weight="700" fill="#ffffff">SJ</text>
-  <text x="154" y="103" font-family="'Open Sans','Segoe UI',Arial,sans-serif" font-size="20" font-weight="600" letter-spacing="0.6" fill="#ffffff">SOLUTIONS</text>
-  <rect x="154" y="111" width="134" height="4" rx="2" fill="#f6b024"/>
+  <text x="158" y="72" font-family="'Poppins','Segoe UI',Arial,sans-serif" font-size="38" font-weight="700" fill="#ffffff">SJ</text>
+  <rect x="158" y="87" width="10" height="10" rx="2" fill="#f6b024"/>
+  <text x="176" y="97" font-family="'Open Sans','Segoe UI',Arial,sans-serif" font-size="26" font-weight="300" fill="#ffffff">Solutions</text>
 </svg>
