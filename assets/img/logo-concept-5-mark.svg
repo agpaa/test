@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 160" role="img" aria-label="SJ Solutions">
+  <defs>
+    <linearGradient id="markGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a72c4"/>
+      <stop offset="100%" stop-color="#04406e"/>
+    </linearGradient>
+  </defs>
+
+  <circle cx="75" cy="80" r="67" fill="none" stroke="#f6b024" stroke-width="3.5"
+          stroke-dasharray="290 135" stroke-linecap="round" transform="rotate(-70 75 80)"/>
+  <circle cx="75" cy="80" r="55" fill="url(#markGrad)"/>
+
+  <path d="M50 96 L68 70 L82 86 L104 56" fill="none" stroke="#ffffff" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="104" cy="56" r="8" fill="#f6b024"/>
+
+  <text x="158" y="72" font-family="'Poppins','Segoe UI',Arial,sans-serif" font-size="38" font-weight="700" fill="#ffffff">SJ</text>
+  <text x="158" y="103" font-family="'Open Sans','Segoe UI',Arial,sans-serif" font-size="26" font-weight="300" fill="#ffffff">Solutions</text>
+  <rect x="158" y="112" width="120" height="3" rx="1.5" fill="#f6b024"/>
+</svg>
