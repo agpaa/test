@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 160" role="img" aria-label="SJ Solutions">
+  <defs>
+    <linearGradient id="skyGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a72c4"/>
+      <stop offset="100%" stop-color="#04406e"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="8" y="8" width="132" height="144" rx="22" fill="url(#skyGrad)"/>
+
+  <polygon points="24,108 52,58 68,84 90,42 118,108" fill="#ffffff" opacity="0.95"/>
+  <circle cx="112" cy="52" r="9" fill="#f6b024"/>
+  <rect x="24" y="108" width="94" height="5" rx="2.5" fill="#f6b024"/>
+
+  <text x="70" y="134" text-anchor="middle" font-family="'Poppins','Segoe UI',Arial,sans-serif" font-size="20" font-weight="700" letter-spacing="3" fill="#ffffff">SJ</text>
+
+  <text x="156" y="72" font-family="'Poppins','Segoe UI',Arial,sans-serif" font-size="38" font-weight="700" fill="#ffffff">SJ</text>
+  <text x="156" y="103" font-family="'Open Sans','Segoe UI',Arial,sans-serif" font-size="26" font-weight="300" fill="#ffffff">Solutions</text>
+  <rect x="156" y="112" width="120" height="3" rx="1.5" fill="#f6b024"/>
+</svg>
