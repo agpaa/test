@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 160" role="img" aria-label="SJ Solutions">
+  <defs>
+    <linearGradient id="hexGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a72c4"/>
+      <stop offset="100%" stop-color="#04406e"/>
+    </linearGradient>
+  </defs>
+  <polygon points="75.0,18.0 128.7,49.0 128.7,111.0 75.0,142.0 21.3,111.0 21.3,49.0" fill="url(#hexGrad)"/>
+  <polygon points="75.0,18.0 128.7,49.0 128.7,111.0 75.0,142.0 21.3,111.0 21.3,49.0" fill="none" stroke="#f6b024" stroke-width="2.5"/>
+  <text x="75" y="98" text-anchor="middle" font-family="'Poppins','Segoe UI',Arial,sans-serif" font-size="46" font-weight="700" fill="#ffffff">SJ</text>
+  <polygon points="70,116 80,116 75,127" fill="#f6b024"/>
+
+  <text x="150" y="72" font-family="'Poppins','Segoe UI',Arial,sans-serif" font-size="38" font-weight="700" fill="#ffffff">SJ</text>
+  <text x="150" y="103" font-family="'Open Sans','Segoe UI',Arial,sans-serif" font-size="26" font-weight="300" fill="#ffffff">Solutions</text>
+  <rect x="150" y="112" width="120" height="3" rx="1.5" fill="#f6b024"/>
+</svg>
